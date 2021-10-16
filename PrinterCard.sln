@@ -1,22 +1,50 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester1", "Tester1\Tester1.csproj", "{91DEE639-C484-4B8F-ACDB-D166881E9A4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaraPrinterLaser", "SaraPrinterLaser\SaraPrinterLaser.csproj", "{29FB6C41-9180-4040-9ABA-7F48647078AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionClass", "EncryptionClass\EncryptionClass.csproj", "{F1CC4647-759D-4E21-8C76-04D12E883F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRZGeneratorSDK", "MRZGeneratorSDK\MRZGeneratorSDK.csproj", "{4DE666E9-B774-4CB8-87D2-046761174051}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{91DEE639-C484-4B8F-ACDB-D166881E9A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91DEE639-C484-4B8F-ACDB-D166881E9A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91DEE639-C484-4B8F-ACDB-D166881E9A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91DEE639-C484-4B8F-ACDB-D166881E9A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FB6C41-9180-4040-9ABA-7F48647078AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FB6C41-9180-4040-9ABA-7F48647078AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FB6C41-9180-4040-9ABA-7F48647078AF}.Debug|x86.ActiveCfg = Debug|x86
+		{29FB6C41-9180-4040-9ABA-7F48647078AF}.Debug|x86.Build.0 = Debug|x86
+		{29FB6C41-9180-4040-9ABA-7F48647078AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FB6C41-9180-4040-9ABA-7F48647078AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FB6C41-9180-4040-9ABA-7F48647078AF}.Release|x86.ActiveCfg = Release|x86
+		{F1CC4647-759D-4E21-8C76-04D12E883F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CC4647-759D-4E21-8C76-04D12E883F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CC4647-759D-4E21-8C76-04D12E883F3C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F1CC4647-759D-4E21-8C76-04D12E883F3C}.Debug|x86.Build.0 = Debug|Any CPU
+		{F1CC4647-759D-4E21-8C76-04D12E883F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CC4647-759D-4E21-8C76-04D12E883F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CC4647-759D-4E21-8C76-04D12E883F3C}.Release|x86.ActiveCfg = Release|Any CPU
+		{F1CC4647-759D-4E21-8C76-04D12E883F3C}.Release|x86.Build.0 = Release|Any CPU
+		{4DE666E9-B774-4CB8-87D2-046761174051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE666E9-B774-4CB8-87D2-046761174051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE666E9-B774-4CB8-87D2-046761174051}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4DE666E9-B774-4CB8-87D2-046761174051}.Debug|x86.Build.0 = Debug|Any CPU
+		{4DE666E9-B774-4CB8-87D2-046761174051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE666E9-B774-4CB8-87D2-046761174051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE666E9-B774-4CB8-87D2-046761174051}.Release|x86.ActiveCfg = Release|Any CPU
+		{4DE666E9-B774-4CB8-87D2-046761174051}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36D84660-CB92-4B7C-8962-6516212A577A}
 	EndGlobalSection
 EndGlobal

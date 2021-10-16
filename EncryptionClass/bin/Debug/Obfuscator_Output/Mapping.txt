@@ -1,0 +1,24 @@
+Renamed Types:
+
+[EncryptionClass]EncryptionClass.EncryptionClass -> [EncryptionClass] . 
+{
+	[EncryptionClass]EncryptionClass.EncryptionClass::Decrypt[1]( [mscorlib]System.String ) ->  
+	[EncryptionClass]EncryptionClass.EncryptionClass::Encrypt[1]( [mscorlib]System.String ) ->  
+	[EncryptionClass]EncryptionClass.EncryptionClass::Base64Encode[1]( [mscorlib]System.String ) ->  
+	[EncryptionClass]EncryptionClass.EncryptionClass::Base64Decode[1]( [mscorlib]System.String ) ->  
+
+	[EncryptionClass]EncryptionClass.EncryptionClass::.ctor[0]( ) skipped:  special name
+	[EncryptionClass]EncryptionClass.EncryptionClass::.cctor[0]( ) skipped:  special name
+
+	System.String [EncryptionClass]System.String EncryptionClass.EncryptionClass::PasswordHash ->  
+	System.String [EncryptionClass]System.String EncryptionClass.EncryptionClass::SaltKey ->  
+	System.String [EncryptionClass]System.String EncryptionClass.EncryptionClass::VIKey ->  
+}
+
+Skipped Types:
+
+Renamed Resources:
+
+
+Skipped Resources:
+

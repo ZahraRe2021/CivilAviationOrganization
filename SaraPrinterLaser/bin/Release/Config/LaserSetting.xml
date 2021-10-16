@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SaraHardwareCompanyLaserPrinterSetting>
+  <AllObjectParent LaserPrinter="Setting">
+    <XPositionValue>7.38</XPositionValue>
+    <YPositionValue>-8.22</YPositionValue>
+    <XMarginValue>0</XMarginValue>
+    <YMarginValue>0</YMarginValue>
+    <ScaleValue>1</ScaleValue>
+    <BrightnessValue>0</BrightnessValue>
+    <ContrastValue>0</ContrastValue>
+    <PointTimeValue>0</PointTimeValue>
+    <DpiValue>600</DpiValue>
+    <DisableLowGrayPointValue>90</DisableLowGrayPointValue>
+    <BmpScanAttribute>0</BmpScanAttribute>
+    <BmpAttribute>57344</BmpAttribute>
+    <RotateAngle>90</RotateAngle>
+    <DisableLowGrayPointFlag>True</DisableLowGrayPointFlag>
+    <InvertFlag>False</InvertFlag>
+    <GrayFlag>False</GrayFlag>
+    <DitherFlag>False</DitherFlag>
+    <BidirectionalFlag>False</BidirectionalFlag>
+    <YscanFlag>False</YscanFlag>
+    <PowerFlag>False</PowerFlag>
+    <OffsetFlag>False</OffsetFlag>
+    <OptimizeFlag>False</OptimizeFlag>
+    <DynamicFlag>False</DynamicFlag>
+    <FixedDpiOnWidth>True</FixedDpiOnWidth>
+    <FixedDpiOnHeight>True</FixedDpiOnHeight>
+    <BrightnessFlag>False</BrightnessFlag>
+    <DrillModeFlag>False</DrillModeFlag>
+    <FixDpiFlag>True</FixDpiFlag>
+  </AllObjectParent>
+</SaraHardwareCompanyLaserPrinterSetting>

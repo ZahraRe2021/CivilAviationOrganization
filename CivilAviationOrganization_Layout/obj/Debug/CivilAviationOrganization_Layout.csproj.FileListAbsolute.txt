@@ -1,0 +1,6 @@
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\CivilAviationOrganization_Layout\bin\Debug\CivilAviationOrganization_Layout.dll
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\CivilAviationOrganization_Layout\bin\Debug\CivilAviationOrganization_Layout.pdb
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\CivilAviationOrganization_Layout\obj\Debug\CivilAviationOrganization_Layout.csprojAssemblyReference.cache
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\CivilAviationOrganization_Layout\obj\Debug\CivilAviationOrganization_Layout.csproj.CoreCompileInputs.cache
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\CivilAviationOrganization_Layout\obj\Debug\CivilAviationOrganization_Layout.dll
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\CivilAviationOrganization_Layout\obj\Debug\CivilAviationOrganization_Layout.pdb

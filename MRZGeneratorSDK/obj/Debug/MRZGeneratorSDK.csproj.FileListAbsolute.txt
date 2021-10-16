@@ -1,0 +1,31 @@
+E:\SaraHardware\Mehrabad Airport\MRZ Calculator SDK\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.dll
+E:\SaraHardware\Mehrabad Airport\MRZ Calculator SDK\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.pdb
+E:\SaraHardware\Mehrabad Airport\MRZ Calculator SDK\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csprojAssemblyReference.cache
+E:\SaraHardware\Mehrabad Airport\MRZ Calculator SDK\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csproj.CoreCompileInputs.cache
+E:\SaraHardware\Mehrabad Airport\MRZ Calculator SDK\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.dll
+E:\SaraHardware\Mehrabad Airport\MRZ Calculator SDK\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.pdb
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.dll
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.pdb
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csprojAssemblyReference.cache
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csproj.CoreCompileInputs.cache
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.dll
+F:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.pdb
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.dll
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.pdb
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csproj.CoreCompileInputs.cache
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.dll
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.pdb
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\Civil Aviation Organization\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.dll
+C:\Users\Home\Desktop\Civil Aviation Organization\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.pdb
+C:\Users\Home\Desktop\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.dll
+C:\Users\Home\Desktop\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.pdb
+C:\Users\Home\Desktop\Civil Aviation Organization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\CivilAviationOrganization\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.dll
+C:\Users\Home\Desktop\CivilAviationOrganization\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.pdb
+C:\Users\Home\Desktop\CivilAviationOrganization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\CivilAviationOrganization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.dll
+C:\Users\Home\Desktop\CivilAviationOrganization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.pdb
+C:\Users\Home\Desktop\CivilAviationOrganization\MRZGeneratorSDK\obj\Debug\MRZGeneratorSDK.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\CivilAviationOrganization\MRZGeneratorSDK\bin\Debug\obfuscar.xml

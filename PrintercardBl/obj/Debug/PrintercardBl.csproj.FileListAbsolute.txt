@@ -1,0 +1,12 @@
+D:\project\cSharp\printer\PrinterCard\PrintercardBl\bin\Debug\PrintercardBl.dll
+D:\project\cSharp\printer\PrinterCard\PrintercardBl\bin\Debug\PrintercardBl.pdb
+D:\project\cSharp\printer\PrinterCard\PrintercardBl\obj\Debug\PrintercardBl.dll
+D:\project\cSharp\printer\PrinterCard\PrintercardBl\obj\Debug\PrintercardBl.pdb
+E:\Software\Laser Source Dll\PrinterCard12\PrinterCard\PrintercardBl\bin\Debug\PrintercardBl.dll
+E:\Software\Laser Source Dll\PrinterCard12\PrinterCard\PrintercardBl\bin\Debug\PrintercardBl.pdb
+E:\Software\Laser Source Dll\PrinterCard12\PrinterCard\PrintercardBl\obj\Debug\PrintercardBl.dll
+E:\Software\Laser Source Dll\PrinterCard12\PrinterCard\PrintercardBl\obj\Debug\PrintercardBl.pdb
+G:\SaraHardware\Laser Project\application\PrinterCard\PrintercardBl\bin\Debug\PrintercardBl.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\PrintercardBl\bin\Debug\PrintercardBl.pdb
+G:\SaraHardware\Laser Project\application\PrinterCard\PrintercardBl\obj\Debug\PrintercardBl.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\PrintercardBl\obj\Debug\PrintercardBl.pdb

@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Obfuscar.2.2.31\build\obfuscar.props" Condition="Exists('..\packages\Obfuscar.2.2.31\build\obfuscar.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29FB6C41-9180-4040-9ABA-7F48647078AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SaraPrinterLaser</RootNamespace>
+    <AssemblyName>SaraPrinterLaser</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Mehrdad_Bahrami\Desktop\rr\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_o_k_M3q_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9086BD187674FD84780CBEA8767EEEDEECEF3E6D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SaraPrinterLaser_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bytescout.Spreadsheet, Version=2.7.0.1554, Culture=neutral, PublicKeyToken=f7dd1bd9d40a50eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bytescout.Spreadsheet.2.70.1553\lib\net40\Bytescout.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CsvHelper, Version=7.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.7.0.1\lib\net45\CsvHelper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CustomControl.OrientedTextControls, Version=1.0.6658.30036, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BarcodeDll\CustomControl.OrientedTextControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Data.v17.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1.resources">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Data.v17.1.resources.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.1.Core">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Pdf.v17.1.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.1.Core.resources">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Pdf.v17.1.Core.resources.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.1.Core">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Printing.v17.1.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.1.Core.resources">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Printing.v17.1.Core.resources.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.1.Core">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Sparkline.v17.1.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.1.Core.resources">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Sparkline.v17.1.Core.resources.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Utils.v17.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1.resources">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.Utils.v17.1.resources.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.1">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.XtraBars.v17.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.1.resources">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.XtraBars.v17.1.resources.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.1">
+      <HintPath>bin\Debug\BarcodeDll\DevExpress.XtraEditors.v17.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EncryptionClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\EncryptionClass.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FTD2XX_NET">
+      <HintPath>bin\Debug\FTD2XX_NET_v1.1.0\FTD2XX_NET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GS.Apdu">
+      <HintPath>bin\Debug\RFIDdll\GS.Apdu.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GS.DebugTraceListener">
+      <HintPath>bin\Debug\RFIDdll\GS.DebugTraceListener.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GS.FormsCtrlLib">
+      <HintPath>bin\Debug\RFIDdll\GS.FormsCtrlLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GS.HexLibrary">
+      <HintPath>bin\Debug\RFIDdll\GS.HexLibrary.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GS.SharpWinSCard">
+      <HintPath>bin\Debug\RFIDdll\GS.SharpWinSCard.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MRZGeneratorSDK">
+      <HintPath>..\MRZGeneratorSDK\bin\Debug\MRZGeneratorSDK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PCSC">
+      <HintPath>..\..\3\DllTest3\DllTest\bin\Debug\PCSC.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RulerControl">
+      <HintPath>bin\Debug\BarcodeDll\RulerControl.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Telerik\Telerik.WinControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Telerik\Telerik.WinControls.GridView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Telerik\Telerik.WinControls.RadDock.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RichTextEditor, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Telerik\Telerik.WinControls.RichTextEditor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Telerik\Telerik.WinControls.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Telerik\TelerikCommon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="VerticalLabel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\VerticalLabel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ZoomAndPan">
+      <HintPath>.\ZoomAndPan.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bl\Auth.cs" />
+    <Compile Include="bl\convertor.cs" />
+    <Compile Include="bl\FileWork.cs" />
+    <Compile Include="ChangePasswordPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordPage.Designer.cs">
+      <DependentUpon>ChangePasswordPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectingDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectingDevice.Designer.cs">
+      <DependentUpon>ConnectingDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabasePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabasePrint.Designer.cs">
+      <DependentUpon>DatabasePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DbConfig.Designer.cs">
+      <DependentUpon>DbConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Debugging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Debugging.Designer.cs">
+      <DependentUpon>Debugging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dl\DataAccessClass.cs" />
+    <Compile Include="dl\DateConvertor.cs" />
+    <Compile Include="dl\GetReport.cs" />
+    <Compile Include="dl\InfoData.cs" />
+    <Compile Include="dl\InfoModel.cs" />
+    <Compile Include="dl\Layout.cs" />
+    <Compile Include="bl\PrintList.cs" />
+    <Compile Include="dl\ParametersSave.cs" />
+    <Compile Include="dl\Pic.cs" />
+    <Compile Include="dl\PrintedCardReport.cs" />
+    <Compile Include="dl\Role.cs" />
+    <Compile Include="dl\UserLog.cs" />
+    <Compile Include="dl\Users.cs" />
+    <Compile Include="EnterData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterData.Designer.cs">
+      <DependentUpon>EnterData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetImageFromPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetImageFromPanel.Designer.cs">
+      <DependentUpon>GetImageFromPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardware\CommandGenrator.cs" />
+    <Compile Include="Hardware\Config.cs" />
+    <Compile Include="Hardware\CR.cs" />
+    <Compile Include="Hardware\job.cs" />
+    <Compile Include="Hardware\Laser.cs" />
+    <Compile Include="Hardware\LaserConfigClass.cs" />
+    <Compile Include="Hardware\LaserPen.cs" />
+    <Compile Include="Hardware\nfc.cs" />
+    <Compile Include="Hardware\RFIDProperty.cs" />
+    <Compile Include="Hardware\Worker.cs" />
+    <Compile Include="Laser_Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laser_Config.Designer.cs">
+      <DependentUpon>Laser_Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmCaoFullPenManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmCaoFullPenManagement.designer.cs">
+      <DependentUpon>frmCaoFullPenManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\CivilAviationInspectorCertificate.cs" />
+    <Compile Include="LayoutDesignFolder\CrewMemberCertificate_C_M_C_.cs" />
+    <Compile Include="LayoutDesignFolder\EntryPictureProperty.cs" />
+    <Compile Include="LayoutDesignFolder\EntryTextProperty.cs" />
+    <Compile Include="LayoutDesignFolder\frmCivilAviationInspectorCertificate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmCivilAviationInspectorCertificate.Designer.cs">
+      <DependentUpon>frmCivilAviationInspectorCertificate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmCrewMemberCertificate_C_M_C_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmCrewMemberCertificate_C_M_C_.Designer.cs">
+      <DependentUpon>frmCrewMemberCertificate_C_M_C_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmEntryPictureProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmEntryPictureProperty.Designer.cs">
+      <DependentUpon>frmEntryPictureProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmEntryTextProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmEntryTextProperty.Designer.cs">
+      <DependentUpon>frmEntryTextProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmUltraLightLicenceCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\frmUltraLightLicenceCard.Designer.cs">
+      <DependentUpon>frmUltraLightLicenceCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutDesignFolder\CAOspecificCardLaserPen.cs" />
+    <Compile Include="LayoutDesignFolder\LayoutDesignTools.cs" />
+    <Compile Include="LayoutDesignFolder\UltraLightLicenceCard.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MachineConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MachineConfig.Designer.cs">
+      <DependentUpon>MachineConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaintForm\CovertPanelToBitmap.cs" />
+    <Compile Include="PaintForm\frmMaindesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaintForm\frmMaindesign.Designer.cs">
+      <DependentUpon>frmMaindesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeriesPrintForCAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeriesPrintForCAO.Designer.cs">
+      <DependentUpon>SeriesPrintForCAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintingPageSeries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintingPageSeries.Designer.cs">
+      <DependentUpon>PrintingPageSeries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PenManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PenManagement.Designer.cs">
+      <DependentUpon>PenManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintingPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintingPage.Designer.cs">
+      <DependentUpon>PrintingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RejectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RejectForm.Designer.cs">
+      <DependentUpon>RejectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SinglePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SinglePrint.Designer.cs">
+      <DependentUpon>SinglePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusClassPersian.cs" />
+    <Compile Include="test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManage.Designer.cs">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePasswordPage.resx">
+      <DependentUpon>ChangePasswordPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectingDevice.resx">
+      <DependentUpon>ConnectingDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabasePrint.resx">
+      <DependentUpon>DatabasePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbConfig.resx">
+      <DependentUpon>DbConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Debugging.resx">
+      <DependentUpon>Debugging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterData.resx">
+      <DependentUpon>EnterData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetImageFromPanel.resx">
+      <DependentUpon>GetImageFromPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laser_Config.resx">
+      <DependentUpon>Laser_Config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayoutDesignFolder\frmCaoFullPenManagement.resx">
+      <DependentUpon>frmCaoFullPenManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayoutDesignFolder\frmCivilAviationInspectorCertificate.resx">
+      <DependentUpon>frmCivilAviationInspectorCertificate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayoutDesignFolder\frmCrewMemberCertificate_C_M_C_.resx">
+      <DependentUpon>frmCrewMemberCertificate_C_M_C_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayoutDesignFolder\frmEntryPictureProperty.resx">
+      <DependentUpon>frmEntryPictureProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayoutDesignFolder\frmEntryTextProperty.resx">
+      <DependentUpon>frmEntryTextProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayoutDesignFolder\frmUltraLightLicenceCard.resx">
+      <DependentUpon>frmUltraLightLicenceCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MachineConfig.resx">
+      <DependentUpon>MachineConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaintForm\frmMaindesign.resx">
+      <DependentUpon>frmMaindesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeriesPrintForCAO.resx">
+      <DependentUpon>SeriesPrintForCAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintingPageSeries.resx">
+      <DependentUpon>PrintingPageSeries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PenManagement.resx">
+      <DependentUpon>PenManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintingPage.resx">
+      <DependentUpon>PrintingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RejectForm.resx">
+      <DependentUpon>RejectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SinglePrint.resx">
+      <DependentUpon>SinglePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManage.resx">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Config\Laser.Config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pen\default.pen">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SaraPrinterLaser_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\CardPicture\CivilAviationInspectorCertificate\Top.png" />
+    <None Include="bin\Debug\CardPicture\CivilAviationInspectorCertificate\Bottom.png" />
+    <None Include="bin\Debug\Images\PersonalPic.png" />
+    <Content Include="logo_o_k_M3q_icon.ico" />
+    <Content Include="obfuscar.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Todo Cao Project.txt" />
+    <None Include="bin\Debug\Gif\infinity_loop_-_logo.gif" />
+    <Content Include="Gif\check-mark-animated-gif-4.gif" />
+    <Content Include="Gif\check3.jpg" />
+    <Content Include="Gif\comp-2.gif" />
+    <Content Include="Gif\gif-icons-menu-transition-animations-animated-3-dotted.gif" />
+    <Content Include="Gif\infinity_loop_-_logo.gif" />
+    <Content Include="Images\LogoSara.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Obfuscar.2.2.31\build\obfuscar.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Obfuscar.2.2.31\build\obfuscar.props'))" />
+  </Target>
+  <PropertyGroup>
+    <PostBuildEvent>"$(Obfuscar)" obfuscar.xml</PostBuildEvent>
+  </PropertyGroup>
+</Project>

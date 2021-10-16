@@ -1,0 +1,109 @@
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.AboutUs.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.ChangePasswordPage.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.ConnectingDevice.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.DatabasePrint.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.DbConfig.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.Debugging.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.EnterData.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.Laser_Config.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.LoginForm.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.MachineConfig.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PaintForm.frmMaindesign.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PrintingPageSeries.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PrintingSeries.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PrintSeries.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PenManagement.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PrintingPage.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.Properties.Resources.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.RejectForm.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.SinglePrint.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.UserManage.resources
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.csproj.GenerateResource.Cache
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.exe.licenses
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\Config\Laser.Config
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\Pen\default.pen
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\SaraPrinterLaser.exe.config
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\SaraPrinterLaser.exe
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\SaraPrinterLaser.pdb
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\Bytescout.Spreadsheet.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\CsvHelper.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\CustomControl.OrientedTextControls.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Data.v17.1.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Data.v17.1.resources.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Pdf.v17.1.Core.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Pdf.v17.1.Core.resources.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Printing.v17.1.Core.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Printing.v17.1.Core.resources.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Sparkline.v17.1.Core.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Sparkline.v17.1.Core.resources.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Utils.v17.1.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Utils.v17.1.resources.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.XtraBars.v17.1.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.XtraBars.v17.1.resources.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.XtraEditors.v17.1.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.XtraEditors.v17.1.resources.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\FTD2XX_NET.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\RulerControl.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\Telerik.WinControls.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\Telerik.WinControls.UI.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\TelerikCommon.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\VerticalLabel.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\ZoomAndPan.dll
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\Bytescout.Spreadsheet.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\CsvHelper.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Data.v17.1.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Pdf.v17.1.Core.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Printing.v17.1.Core.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Sparkline.v17.1.Core.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.Utils.v17.1.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.XtraBars.v17.1.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\DevExpress.XtraEditors.v17.1.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\FTD2XX_NET.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\RulerControl.pdb
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\Telerik.WinControls.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\Telerik.WinControls.UI.xml
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\ZoomAndPan.pdb
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.exe
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.pdb
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\SaraPrinterLaser.exe.manifest
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\bin\Release\SaraPrinterLaser.application
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.exe.manifest
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.application
+G:\SaraHardware\Laser Project\application\PrinterCard\SaraPrinterLaser\obj\Release\SaraPrinterLaser.csprojResolveAssemblyReference.cache
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.csprojAssemblyReference.cache
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.AboutUs.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.ChangePasswordPage.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.ConnectingDevice.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.DatabasePrint.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.DbConfig.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.Debugging.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.EnterData.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.GetImageFromPanel.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.Laser_Config.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.LayoutDesignFolder.CaoFullPenManagement.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.LayoutDesignFolder.frmUltraLightLicenceCard.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.LoginForm.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.MachineConfig.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PaintForm.frmMaindesign.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PrintingPageSeries.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PenManagement.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.PrintingPage.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.Properties.Resources.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.RejectForm.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.SinglePrint.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.UserManage.resources
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.csproj.GenerateResource.cache
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.exe.licenses
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.csproj.CoreCompileInputs.cache
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.exe
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.pdb
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\bin\Release\Config\Laser.Config
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\bin\Release\Pen\default.pen
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\bin\Release\SaraPrinterLaser.exe.config
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\bin\Release\SaraPrinterLaser.exe.manifest
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\bin\Release\SaraPrinterLaser.application
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\bin\Release\SaraPrinterLaser.exe
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\bin\Release\SaraPrinterLaser.pdb
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.exe.manifest
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.application
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\SaraPrinterLaser\obj\Release\SaraPrinterLaser.TrustInfo.xml

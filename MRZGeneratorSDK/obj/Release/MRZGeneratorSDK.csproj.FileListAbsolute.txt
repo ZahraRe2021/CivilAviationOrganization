@@ -1,0 +1,6 @@
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\bin\Release\MRZGeneratorSDK.dll
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\bin\Release\MRZGeneratorSDK.pdb
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Release\MRZGeneratorSDK.csprojAssemblyReference.cache
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Release\MRZGeneratorSDK.csproj.CoreCompileInputs.cache
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Release\MRZGeneratorSDK.dll
+E:\SaraHardware\Laser Project\application\Civil Aviation Organization\MRZGeneratorSDK\obj\Release\MRZGeneratorSDK.pdb

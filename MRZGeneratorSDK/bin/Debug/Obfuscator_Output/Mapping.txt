@@ -1,0 +1,23 @@
+Renamed Types:
+
+[MRZGeneratorSDK]MRZGeneratorSDK.MRZGeneratorSDK -> [MRZGeneratorSDK] . 
+{
+	[MRZGeneratorSDK]MRZGeneratorSDK.MRZGeneratorSDK::MRZGenerator[9]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) ->  
+	[MRZGeneratorSDK]MRZGeneratorSDK.MRZGeneratorSDK::RemoveDuplicateSpace[1]( [mscorlib]System.String ) ->  
+	[MRZGeneratorSDK]MRZGeneratorSDK.MRZGeneratorSDK::CheckDigits[1]( [mscorlib]System.String ) ->  
+	[MRZGeneratorSDK]MRZGeneratorSDK.MRZGeneratorSDK::GetCharacterValue[1]( [mscorlib]System.Char ) ->  
+
+	[MRZGeneratorSDK]MRZGeneratorSDK.MRZGeneratorSDK::.ctor[0]( ) skipped:  special name
+	[MRZGeneratorSDK]MRZGeneratorSDK.MRZGeneratorSDK::.cctor[0]( ) skipped:  special name
+
+	System.String[] [MRZGeneratorSDK]System.String[] MRZGeneratorSDK.MRZGeneratorSDK::InputDataIsNotValid ->  
+	System.String [MRZGeneratorSDK]System.String MRZGeneratorSDK.MRZGeneratorSDK::IRAN_HMD ->  
+}
+
+Skipped Types:
+
+Renamed Resources:
+
+
+Skipped Resources:
+
